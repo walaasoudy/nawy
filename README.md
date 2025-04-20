@@ -10,12 +10,6 @@ A full-stack web application for managing apartments using **MongoDB, Express.js
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
-
-git clone https://github.com/YOUR_USERNAME/apartments-app.git
-
-cd apartments-app
-
 ### 2. Install dependencies
    
 Skip this step if you are using Docker only.

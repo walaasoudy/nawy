@@ -1,4 +1,4 @@
-# 🏡 Apartments App Task Nawy
+#  Apartments App Task Nawy
 
 A full-stack web application for managing apartments using **MongoDB, Express.js, next, and Node.js**. The project is containerized with **Docker** for easy development and deployment.
 
@@ -74,4 +74,5 @@ frontend/node_modules/
 
 ###  System and log files
 *.log
+
 .DS_Store

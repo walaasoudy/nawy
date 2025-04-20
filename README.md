@@ -31,7 +31,8 @@ Inside the backend/ folder, create a .env file:
 MONGO_URI=mongodb://mongo_db:27017/apartments
 
 PORT=5000
-✅ The .env file is already added to .gitignore.
+
+The .env file is already added to .gitignore.
 
 ### 4. Run the app with Docker
    

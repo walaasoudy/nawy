@@ -10,7 +10,7 @@ A full-stack web application for managing apartments using **MongoDB, Express.js
 
 ## 🚀 Getting Started
 
-### 2. Install dependencies
+### 1. Install dependencies
    
 Skip this step if you are using Docker only.
 
@@ -18,7 +18,7 @@ cd backend && npm install
 
 cd ../frontend && npm install
 
-### 3. Create environment file
+### 2. Create environment file
    
 Inside the backend/ folder, create a .env file:
 
@@ -28,7 +28,7 @@ PORT=5000
 
 The .env file is already added to .gitignore.
 
-### 4. Run the app with Docker
+### 3. Run the app with Docker
    
 docker-compose up --build
 

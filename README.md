@@ -16,7 +16,7 @@ git clone https://github.com/YOUR_USERNAME/apartments-app.git
 
 cd apartments-app
 
-2. Install dependencies
+### 2. Install dependencies
    
 Skip this step if you are using Docker only.
 
@@ -24,7 +24,7 @@ cd backend && npm install
 
 cd ../frontend && npm install
 
-4. Create environment file
+### 3. Create environment file
    
 Inside the backend/ folder, create a .env file:
 
@@ -33,7 +33,7 @@ MONGO_URI=mongodb://mongo_db:27017/apartments
 PORT=5000
 ✅ The .env file is already added to .gitignore.
 
-4. Run the app with Docker
+### 4. Run the app with Docker
    
 docker-compose up --build
 

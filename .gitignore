@@ -1,0 +1,8 @@
+# Ignore node_modules in both backend and frontend
+back/node_modules/
+front/node_modules/
+
+# General ignores
+.env
+*.log
+.DS_Store

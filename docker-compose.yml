@@ -1,0 +1,31 @@
+services:
+  backend:
+    container_name: apartments-app-backend-1
+    build: ./back
+    ports:
+      - "5000:5000"
+    networks:
+      - app-network
+    environment:
+      - MONGO_URI=mongodb+srv://walaasoudy36:iY49rQfTg9D7MhDZ@cluster0.xclmbbo.mongodb.net/apartments?retryWrites=true&w=majority
+
+  frontend:
+    build: ./front
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    networks:
+      - app-network
+
+  mongo_db:
+    image: mongo
+    container_name: mongo_db
+    ports:
+      - "27017:27017"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

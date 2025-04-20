@@ -80,5 +80,5 @@ frontend/node_modules/
 ## Demo Video
 
 Watch the full demo of the Apartments App here:  
-🔗 [Apartments App Demo](https://drive.google.com/file/d/YOUR_VIDEO_ID/view?usp=sharing)
+🔗 https://drive.google.com/file/d/16LFQVrmIC8G8h46xc36Rcdow7YaYeuDu/view?usp=sharing
 

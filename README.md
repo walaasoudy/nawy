@@ -63,13 +63,15 @@ Docker & Docker Compose – Containerization
 
 The project uses a .gitignore file to exclude:
 
-# Node modules
+###  Node modules
 backend/node_modules/
+
 frontend/node_modules/
 
-# Environment files
+### Environment files
+
 .env
 
-# System and log files
+###  System and log files
 *.log
 .DS_Store

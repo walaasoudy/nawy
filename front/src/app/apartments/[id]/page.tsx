@@ -18,13 +18,13 @@ interface Apartment {
 export default async function ApartmentDetails({ params }: { params: { id: string } }) {
     const { id } = await params;
 
-    // const res = await fetch(`http://backend:5000/api/apartments/${id}`, {
-    //     cache: 'no-store',
-    // });
-    
-    const res = await fetch(`http://localhost:5000/api/apartments/${id}`, {
+    const res = await fetch(`http://backend:5000/api/apartments/${id}`, {
         cache: 'no-store',
     });
+    
+    // const res = await fetch(`http://localhost:5000/api/apartments/${id}`, {
+    //     cache: 'no-store',
+    // });
 
     const data = await res.json();
     const apt: Apartment = data.data.apartment;

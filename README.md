@@ -82,3 +82,19 @@ frontend/node_modules/
 Watch the full demo of the Apartments App here:  
 🔗 https://drive.google.com/file/d/16LFQVrmIC8G8h46xc36Rcdow7YaYeuDu/view?usp=sharing
 
+
+
+## API Endpoint
+The backend exposes the following endpoint for managing apartments:
+
+GET /api/apartments
+### API Routes
+
+Method	Endpoint	Description
+
+GET	/api/apartments	Get all apartments
+
+POST	/api/apartments	Create a new apartment
+
+GET /api/apartments/:id Get detailed information for a specific apartment by its ID.
+

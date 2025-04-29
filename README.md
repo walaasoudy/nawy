@@ -66,11 +66,6 @@ frontend/node_modules/
 
 .env
 
-###  System and log files
-*.log
-
-.DS_Store
-
 ## Demo Video
 
 Watch the full demo of the Apartments App here:  
